@@ -1,8 +1,8 @@
-# Proyecto - Recursividad
+# Proyecto - Estructuras Lineales
 
 ## Descripción del Problema
 
-**Este ejercicio implementa diferentes problemas recursivosl**
+**Este ejercicio implementa diferentes estructuras dinamicas lineales**
 
 ## Ejecución
 
