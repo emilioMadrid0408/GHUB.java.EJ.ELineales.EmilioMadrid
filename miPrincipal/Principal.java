@@ -24,5 +24,7 @@ public class Principal {
         pila.retirar();
 
         System.out.println("El tope de la pila es: " + pila.cima());
+
+        
     }
 }
