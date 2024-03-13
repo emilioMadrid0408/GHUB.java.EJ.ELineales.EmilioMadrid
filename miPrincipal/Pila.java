@@ -29,4 +29,19 @@ public class Pila<T> {
         }
         tamanio++;
     }
+
+    public void retirar() {
+        if (!esVacia()) {
+            cabeza = cabeza.getSiguiente();
+            tamanio--;
+        }
+    }
+
+    public T cima() {
+        if (!esVacia()) {
+            return cabeza.getValor();
+        } else {
+            return null;
+        }
+    }
 }
