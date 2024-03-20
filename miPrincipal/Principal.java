@@ -10,6 +10,9 @@ public class Principal{
             System.out.println("***********************");
             System.out.println(" 1) Pila");
             System.out.println(" 2) Stack");
+            System.out.println(" 3) Delimitadores");
+            System.out.println(" 4) Expresion Infija a PostFija");
+            System.out.println("5) Cola");
 
             System.out.println();
 
@@ -24,6 +27,14 @@ public class Principal{
                 case 2:
                     DemoStack.menu();
                     break;
+                case 3:
+                   DemoDelimitador.menu();
+                   break;
+                case 4:
+                case 5:
+                   DemoCola.menu();
+                   break;
+
                 case 0:
                     System.out.println("ADIOS!");
                     consola.close();
